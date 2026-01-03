@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | McKenna Makran</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="icon" href="small.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">McKenna Makran</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Portfolio</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <a class="contact" target="_blank" href="https://medium.com/@mckennamakran">Read the Blog</a>
+    </header>
+
+    <main class="projects-main">
+        <h1 class="page-title">Projects</h1>
+        <p class="page-subtitle">Explore my projects across Web, Python, C++, and AI/ML</p>
+
+        <!-- Filter Buttons -->
+        <section class="projects-filter">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="cpp">C++</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="ml">AI/ML</button>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-grid">
+
+            <!-- latest -->
+            <div class="project-card" data-categories="python ml">
+                <a target="_blank" href="https://github.com/mckennamakran/sophia-recovery-chatbot"><img src="sophia.jpg" alt="Sophia Relapse Chatbot"></a>
+                <a target="_blank" href="https://github.com/mckennamakran/sophia-recovery-chatbot"><h3>Sophia Relapse Chatbot</h3></a>
+                <p>This project combines data collection, psychological modeling, and machine learning to estimate relapse risk while prioritizing empathy, transparency, and ethical responsibility.</p>
+                <p>Language: Python</p>
+            </div>
+            
+            <!-- Cognitive Distortion Helper -->
+            <div class="project-card" data-categories="cpp">
+                <a target="_blank" href="https://github.com/mckennamakran/cognitive-distortion-helper" class="project-link"><img src="cog.png" alt="Cognitive Distortion Helper"> 
+                    <h3>Cognitive Distortion Helper</h3></a>
+                <p>C++ console application that helps users identify and reflect on common cognitive distortions using a Binary Search Tree.</p>
+                <p>Language: C++</p>
+            </div>
+
+            <!-- Portfolio Website -->
+            <div class="project-card" data-categories="web">
+                <a target="_blank" href="https://github.com/mckennamakran/portfolio" class="project-link"><img src="portfolio.png" alt="Portfolio Website"> <h3>Portfolio</h3></a>
+                <p>My personal portfolio website showcasing my projects and skills.</p>
+                <p>Language: HTML</p>
+            </div>
+
+            <!-- Anxious Brain Simulation -->
+            <div class="project-card" data-categories="web javascript">
+                <a target="_blank" href="https://github.com/mckennamakran/anxious-brain-simulation" class="project-link"><img src="anxious.png" alt="Anxious Brain Simulation"> <h3>Anxious Brain Simulation</h3></a>
+
+                <p>A website simulating an anxious brain to create empathy and understanding for those experiencing anxiety.</p>
+                <p>Language: JavaScript</p>
+            </div>
+
+            <!-- Movie Quote Generator -->
+            <div class="project-card" data-categories="web">
+                <a target="_blank" href="https://github.com/mckennamakran/movie-quote-generator" class="project-link"><img src="movie.png" alt="Movie Quote Generator"> <h3>Movie Quote Generator</h3></a>
+                <p>HTML random movie quote generator that provides inspirational and thought-provoking quotes.</p>
+                <p>Language: HTML</p>
+            </div>
+
+            <!-- PTSD Relapse Risk Prediction Model -->
+            <div class="project-card" data-categories="python ml">
+                <a target="_blank" href="https://github.com/mckennamakran/PTSD-Relapse-Risk-Prediction-Model" class="project-link"><img src="ptsd.jpg" alt="PTSD Relapse Risk Prediction Model"> <h3>PTSD Relapse Risk Prediction Model</h3></a>
+                <p>Linear Regression model to predict the likelihood of relapse in individuals with PTSD using Python and ML techniques.</p>
+                <p>Language: Python, ML</p>
+            </div>
+
+            <!-- Grade Management System -->
+            <div class="project-card" data-categories="python">
+                <a target="_blank" href="https://github.com/mckennamakran/grade-management-system" class="project-link"><img src="grade.png" alt="Grade Management System"> <h3>Grade Management System</h3></a>
+                <p>A tool for educators to manage and track student grades efficiently with Python.</p>
+                <p>Language: Python</p>
+            </div>
+
+            <!-- Basic Calculator -->
+            <div class="project-card" data-categories="web javascript">
+                <a target="_blank" href="https://github.com/mckennamakran/basic-calculator" class="project-link"><img src="CALC.png" alt="Basic Calculator"> <h3>Basic Calculator</h3></a>
+                <p>Simple calculator built using HTML, CSS, and JavaScript, demonstrating core web development concepts.</p>
+                <p>Language: HTML, JS</p>
+            </div>
+
+            
+
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-name">McKenna Makran</div>
+        <div class="social">
+            <a target="_blank" href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <a href="mailto:mckennamakran11@gmail.com" class="footer-contact">Get in Touch</a>
+    </div>
+</footer>
+
+    <script>
+        // Filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.dataset.filter;
+
+                projectCards.forEach(card => {
+                    const categories = card.dataset.categories.split(' ');
+                    if(filter === 'all' || categories.includes(filter)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
